@@ -2,7 +2,7 @@
 
 This repository supports the manuscript **Before model accuracy: Acquisition-admissibility gates expose specimen-identity shortcuts in machinery diagnosis**.
 
-The public reproducibility record preserves the frozen unified V2 numerical evidence; V2 denotes the computational evidence freeze used by the verification scripts.
+Release v2.0.1 preserves the frozen unified V2 numerical evidence and clarifies the mixed-licence boundary; V2 denotes the computational evidence freeze used by the verification scripts. No scientific result changed from v2.0.0.
 
 The authoritative logistic evidence is the unified V2 record under `unified_v2/`. It regenerates the primary split comparison and all logistic controls in one pinned environment from the same frozen 1,200-row feature table. The source audits and frozen feature table remain under `primary/`; superseded pre-V2 logistic summaries are intentionally omitted so the unified V2 release is the authoritative numerical record for the manuscript. Historical method scripts are retained under `primary/historical_v1_code/` for provenance only.
 
@@ -38,7 +38,10 @@ The released evidence is already frozen and verified; retraining is optional. Ra
 
 The results support a specimen-identity shortcut mechanism and split-unit sensitivity within the declared 15-bearing, one-rig Paderborn inventory. They do not estimate unrestricted industrial deployment performance, identify the physical origin of the specimen signature, or prove that every diagnostic architecture has the same gap. The 200 assignments and 552 mappings are finite challenge spaces rather than independent physical experiments; the 14,400-partition distribution is finite design sensitivity, not a confidence interval.
 
-## Licence and attribution
+## Licences and attribution
 
-Author-created code is released under the MIT License. Paderborn-derived tables retain source attribution and source-dataset conditions; see `DATA_PROVENANCE.md`.
+This is a mixed-licence release. Author-created code is released under the
+MIT License. Paderborn-derived caches, features, predictions and evidence
+remain subject to CC BY-NC 4.0 and source attribution. The file-level map is
+defined in `LICENSES.md`; source details are in `DATA_PROVENANCE.md`.
 

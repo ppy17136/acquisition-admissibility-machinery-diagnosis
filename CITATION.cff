@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated manuscript and versioned archive."
+message: "If you use this mixed-license repository, please cite the associated manuscript and versioned archive and follow LICENSES.md."
 title: "Before model accuracy: Acquisition-admissibility gates expose specimen-identity shortcuts in machinery diagnosis"
 type: software
-version: 2.0.0
+version: 2.0.1
 date-released: 2026-08-14
 authors:
   - family-names: Ma
@@ -32,5 +32,4 @@ authors:
   - family-names: Wei
     given-names: Zi Jian
     orcid: "https://orcid.org/0009-0003-4932-5703"
-abstract: "Code and derived public evidence for a provenance-gated audit of specimen-identity shortcuts and split-unit sensitivity in machinery diagnosis."
-license: MIT
+abstract: "Author-created code and Paderborn-derived public evidence for a provenance-gated audit of specimen-identity shortcuts and split-unit sensitivity in machinery diagnosis. Licensing is assigned by file class in LICENSES.md."
