@@ -1,0 +1,24 @@
+{
+  "protocol": "paderborn-spectral-cnn-confirmatory-protocol-20260811",
+  "records": 1200,
+  "channels": [
+    "vibration_1",
+    "phase_current_1",
+    "phase_current_2"
+  ],
+  "shape": [
+    1200,
+    3,
+    2049
+  ],
+  "dtype": "float32",
+  "frequency_bins": 2049,
+  "frequency_range_hz": [
+    0.0,
+    32000.0
+  ],
+  "all_finite": true,
+  "cache_bytes": 23723571,
+  "cache_sha256": "257a55f3d3ece8c21807799ad9104a7623c5f22c62ccceb05cc72b95d8da2e02",
+  "elapsed_s": 36.4289345741272
+}

@@ -1,0 +1,127 @@
+{
+  "analysis": "fault-class association sensitivity for the 200 frozen pseudolabel assignments",
+  "association_measure": "Cramer's V between true fault class and bearing-assigned pseudolabel",
+  "permutations": 200,
+  "minimum_cramers_v": 0.2,
+  "minimum_cramers_v_permutation_count": 52,
+  "minimum_cramers_v_permutation_ids": [
+    1,
+    2,
+    10,
+    11,
+    14,
+    20,
+    29,
+    32,
+    36,
+    41,
+    42,
+    47,
+    48,
+    51,
+    63,
+    68,
+    73,
+    76,
+    77,
+    83,
+    86,
+    87,
+    101,
+    104,
+    105,
+    107,
+    108,
+    110,
+    111,
+    113,
+    118,
+    119,
+    123,
+    125,
+    129,
+    130,
+    134,
+    139,
+    142,
+    145,
+    153,
+    158,
+    161,
+    164,
+    165,
+    174,
+    176,
+    180,
+    189,
+    190,
+    195,
+    199
+  ],
+  "modality_summary": {
+    "vibration": {
+      "correlation_cramers_v_with_repetition_accuracy": 0.08255070324104424,
+      "minimum_association_subset": {
+        "count": 52,
+        "repetition_accuracy_min_mean_max": [
+          0.8683333333333334,
+          0.9240865384615385,
+          0.9824999999999999
+        ],
+        "specimen_accuracy_min_mean_max": [
+          0.016666666666666666,
+          0.275400641025641,
+          0.5341666666666666
+        ],
+        "gap_min_mean_max": [
+          0.43333333333333324,
+          0.6486858974358974,
+          0.8583333333333333
+        ]
+      }
+    },
+    "current": {
+      "correlation_cramers_v_with_repetition_accuracy": -0.06292629172707866,
+      "minimum_association_subset": {
+        "count": 52,
+        "repetition_accuracy_min_mean_max": [
+          0.7241666666666666,
+          0.8285096153846153,
+          0.9375
+        ],
+        "specimen_accuracy_min_mean_max": [
+          0.07583333333333334,
+          0.26818910256410255,
+          0.49916666666666665
+        ],
+        "gap_min_mean_max": [
+          0.36583333333333334,
+          0.5603205128205129,
+          0.7375000000000002
+        ]
+      }
+    },
+    "fusion": {
+      "correlation_cramers_v_with_repetition_accuracy": 0.02338940384949521,
+      "minimum_association_subset": {
+        "count": 52,
+        "repetition_accuracy_min_mean_max": [
+          0.9800000000000001,
+          0.9945833333333334,
+          1.0
+        ],
+        "specimen_accuracy_min_mean_max": [
+          0.0016666666666666666,
+          0.2705608974358974,
+          0.5083333333333334
+        ],
+        "gap_min_mean_max": [
+          0.49083333333333334,
+          0.7240224358974359,
+          0.9933333333333334
+        ]
+      }
+    }
+  },
+  "interpretation_boundary": "The 200 assignments are challenge constructions over one fixed 15-bearing inventory. Their distribution is not a confidence distribution from independent physical experiments."
+}

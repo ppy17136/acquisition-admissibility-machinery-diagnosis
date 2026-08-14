@@ -1,0 +1,17 @@
+{
+  "seed": 42,
+  "modality": "vibration",
+  "split": "specimen_fold",
+  "test_fold": 4,
+  "validation_fold": 5,
+  "train_rows": 720,
+  "validation_rows": 240,
+  "test_rows": 240,
+  "best_epoch": 1,
+  "epochs_run": 13,
+  "balanced_accuracy": 0.6375000000000001,
+  "macro_f1": 0.5101294199021642,
+  "accuracy": 0.6375,
+  "device": "cuda",
+  "elapsed_s": 4.657121896743774
+}

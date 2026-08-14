@@ -1,0 +1,106 @@
+{
+  "protocol": "qrei-unified-v2-balanced-specimen-pseudolabels",
+  "rng_seed": 20260811,
+  "balanced_permutations": 200,
+  "uniform_guessing_expected_accuracy": 0.3333333333333333,
+  "summaries": [
+    {
+      "modality": "vibration",
+      "split": "repetition_fold",
+      "permutations": 200,
+      "accuracy_mean": 0.9267875,
+      "accuracy_min": 0.8258333333333333,
+      "accuracy_median": 0.9308333333333334,
+      "accuracy_max": 0.9966666666666667,
+      "accuracy_std": 0.03215346947881993,
+      "accuracy_q025": 0.8682916666666667,
+      "accuracy_q975": 0.9767291666666668
+    },
+    {
+      "modality": "vibration",
+      "split": "specimen_fold",
+      "permutations": 200,
+      "accuracy_mean": 0.29045,
+      "accuracy_min": 0.016666666666666666,
+      "accuracy_median": 0.28625,
+      "accuracy_max": 0.5875,
+      "accuracy_std": 0.13423098274275155,
+      "accuracy_q025": 0.04729166666666667,
+      "accuracy_q975": 0.5453541666666669
+    },
+    {
+      "modality": "current",
+      "split": "repetition_fold",
+      "permutations": 200,
+      "accuracy_mean": 0.8203083333333333,
+      "accuracy_min": 0.615,
+      "accuracy_median": 0.8216666666666667,
+      "accuracy_max": 0.9633333333333333,
+      "accuracy_std": 0.06275674846536651,
+      "accuracy_q025": 0.6990625,
+      "accuracy_q975": 0.9341875000000001
+    },
+    {
+      "modality": "current",
+      "split": "specimen_fold",
+      "permutations": 200,
+      "accuracy_mean": 0.2868416666666667,
+      "accuracy_min": 0.011666666666666667,
+      "accuracy_median": 0.28625,
+      "accuracy_max": 0.5558333333333334,
+      "accuracy_std": 0.10521804717416405,
+      "accuracy_q025": 0.0754375,
+      "accuracy_q975": 0.4995625000000001
+    },
+    {
+      "modality": "fusion",
+      "split": "repetition_fold",
+      "permutations": 200,
+      "accuracy_mean": 0.9945708333333334,
+      "accuracy_min": 0.9758333333333333,
+      "accuracy_median": 0.9958333333333333,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.004874168671690529,
+      "accuracy_q025": 0.9824375000000002,
+      "accuracy_q975": 1.0
+    },
+    {
+      "modality": "fusion",
+      "split": "specimen_fold",
+      "permutations": 200,
+      "accuracy_mean": 0.28389583333333335,
+      "accuracy_min": 0.0016666666666666666,
+      "accuracy_median": 0.2808333333333333,
+      "accuracy_max": 0.6725,
+      "accuracy_std": 0.13030233541499087,
+      "accuracy_q025": 0.04385416666666667,
+      "accuracy_q975": 0.5533333333333333
+    }
+  ],
+  "paired_repetition_minus_specimen": [
+    {
+      "modality": "vibration",
+      "mean_repetition_minus_specimen": 0.6363374999999999,
+      "q025": 0.42079166666666673,
+      "median": 0.6391666666666667,
+      "q975": 0.841125,
+      "fraction_positive": 1.0
+    },
+    {
+      "modality": "current",
+      "mean_repetition_minus_specimen": 0.5334666666666666,
+      "q025": 0.38895833333333324,
+      "median": 0.535,
+      "q975": 0.6958958333333333,
+      "fraction_positive": 1.0
+    },
+    {
+      "modality": "fusion",
+      "mean_repetition_minus_specimen": 0.710675,
+      "q025": 0.44579166666666675,
+      "median": 0.7175,
+      "q975": 0.9469375000000002,
+      "fraction_positive": 1.0
+    }
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "protocol": "qrei-unified-v2-all-evidence",
+  "mode": "full",
+  "elapsed_s": 67.4390652179718,
+  "feature_sha256": "82f5438e6fb83a3c1dfbbf78bd48c79722dcbe016d1b754c14cee07223729b7e",
+  "baselines": {
+    "summaries": [
+      {
+        "task": "bearing_identity",
+        "modality": "current",
+        "split": "repetition_fold",
+        "folds": 5,
+        "mean_accuracy": 0.9708333333333334,
+        "std_accuracy": 0.015866193970549784,
+        "min_accuracy": 0.9541666666666667,
+        "max_accuracy": 0.9875,
+        "mean_balanced_accuracy": 0.9708333333333334,
+        "std_balanced_accuracy": 0.015866193970549784,
+        "min_balanced_accuracy": 0.9541666666666667,
+        "max_balanced_accuracy": 0.9875,
+        "mean_macro_f1": 0.9711684601504338,
+        "std_macro_f1": 0.015623781104058152,
+        "min_macro_f1": 0.9547211201196021,
+        "max_macro_f1": 0.9876907322068613,
+        "mean_log_loss": 0.20338233684563362,
+        "std_log_loss": 0.03573473340662885,
+        "min_log_loss": 0.16930434859813445,
+        "max_log_loss": 0.25739145781195094,
+        "mean_multiclass_brier": 0.08212734777951067,
+        "std_multiclass_brier": 0.012958759022010364,
+        "min_multiclass_brier": 0.0662749796939722,
+        "max_multiclass_brier": 0.09274643248895006
+      },
+      {
+        "task": "bearing_identity",
+        "modality": "fusion",
+        "split": "repetition_fold",
+        "folds": 5,
+        "mean_accuracy": 0.9983333333333334,
+        "std_accuracy": 0.0022821773229381843,
+        "min_accuracy": 0.9958333333333333,
+        "max_accuracy": 1.0,
+        "mean_balanced_accuracy": 0.9983333333333334,
+        "std_balanced_accuracy": 0.0022821773229381843,
+        "min_balanced_accuracy": 0.9958333333333333,
+        "max_balanced_accuracy": 1.0,
+        "mean_macro_f1": 0.9983317041381558,
+        "std_macro_f1": 0.002284408190311513,
+        "min_macro_f1": 0.9958292603453894,
+        "max_macro_f1": 1.0,
+        "mean_log_loss": 0.0186641497390104,
+        "std_log_loss": 0.000883014997247985,
+        "min_log_loss": 0.01740692285130035,
+        "max_log_loss": 0.019777678105754114,
+        "mean_multiclass_brier": 0.0019836865227261455,
+        "std_multiclass_brier": 0.00112641808037901,
+        "min_multiclass_brier": 0.0009516520122004472,
+        "max_multiclass_brier": 0.003454458339386553
+      },
+      {
+        "task": "bearing_identity",
+        "modality": "vibration",
+        "split": "repetition_fold",
+        "folds": 5,
+        "mean_accuracy": 0.9891666666666667,
+        "std_accuracy": 0.006319062870042981,
+        "min_accuracy": 0.9791666666666666,
+        "max_accuracy": 0.9958333333333333,
+        "mean_balanced_accuracy": 0.9891666666666667,
+        "std_balanced_accuracy": 0.006319062870042981,
+        "min_balanced_accuracy": 0.9791666666666666,
+        "max_balanced_accuracy": 0.9958333333333333,
+        "mean_macro_f1": 0.9891765664232457,
+        "std_macro_f1": 0.006242409080310449,
+        "min_macro_f1": 0.979383972552853,
+        "max_macro_f1": 0.9958292603453894,
+        "mean_log_loss": 0.11657897030484872,
+        "std_log_loss": 0.02103152290793651,
+        "min_log_loss": 0.10409011917315038,
+        "max_log_loss": 0.15342144386500775,
+        "mean_multiclass_brier": 0.03565423978410826,
+        "std_multiclass_brier": 0.0056362673802530985,
+        "min_multiclass_brier": 0.03079714387861151,
+        "max_multiclass_brier": 0.04514435561452362
+      },
+      {
+        "task": "metadata_only_diagnosis",
+        "modality": "operating_condition_and_repeat",
+        "split": "repetition_fold",
+        "folds": 5,
+        "mean_accuracy": 0.3333333333333333,
+        "std_accuracy": 0.0,
+        "min_accuracy": 0.3333333333333333,
+        "max_accuracy": 0.3333333333333333,
+        "mean_balanced_accuracy": 0.3333333333333333,
+        "std_balanced_accuracy": 0.0,
+        "min_balanced_accuracy": 0.3333333333333333,
+        "max_balanced_accuracy": 0.3333333333333333,
+        "mean_macro_f1": 0.16666666666666666,
+        "std_macro_f1": 0.0,
+        "min_macro_f1": 0.16666666666666666,
+        "max_macro_f1": 0.16666666666666666,
+        "mean_log_loss": 1.0986122886681096,
+        "std_log_loss": 0.0,
+        "min_log_loss": 1.0986122886681096,
+        "max_log_loss": 1.0986122886681096,
+        "mean_multiclass_brier": 0.6666666666666666,
+        "std_multiclass_brier": 0.0,
+        "min_multiclass_brier": 0.6666666666666666,
+        "max_multiclass_brier": 0.6666666666666666
+      },
+      {
+        "task": "metadata_only_diagnosis",
+        "modality": "operating_condition_and_repeat",
+        "split": "specimen_fold",
+        "folds": 5,
+        "mean_accuracy": 0.3333333333333333,
+        "std_accuracy": 0.0,
+        "min_accuracy": 0.3333333333333333,
+        "max_accuracy": 0.3333333333333333,
+        "mean_balanced_accuracy": 0.3333333333333333,
+        "std_balanced_accuracy": 0.0,
+        "min_balanced_accuracy": 0.3333333333333333,
+        "max_balanced_accuracy": 0.3333333333333333,
+        "mean_macro_f1": 0.16666666666666666,
+        "std_macro_f1": 0.0,
+        "min_macro_f1": 0.16666666666666666,
+        "max_macro_f1": 0.16666666666666666,
+        "mean_log_loss": 1.0986122886681096,
+        "std_log_loss": 0.0,
+        "min_log_loss": 1.0986122886681096,
+        "max_log_loss": 1.0986122886681096,
+        "mean_multiclass_brier": 0.6666666666666666,
+        "std_multiclass_brier": 0.0,
+        "min_multiclass_brier": 0.6666666666666666,
+        "max_multiclass_brier": 0.6666666666666666
+      },
+      {
+        "task": "three_class_diagnosis",
+        "modality": "current",
+        "split": "repetition_fold",
+        "folds": 5,
+        "mean_accuracy": 0.7916666666666667,
+        "std_accuracy": 0.021850184336878138,
+        "min_accuracy": 0.7666666666666667,
+        "max_accuracy": 0.8166666666666667,
+        "mean_balanced_accuracy": 0.7916666666666667,
+        "std_balanced_accuracy": 0.0218501843368782,
+        "min_balanced_accuracy": 0.7666666666666666,
+        "max_balanced_accuracy": 0.8166666666666668,
+        "mean_macro_f1": 0.7914854111470909,
+        "std_macro_f1": 0.02151036956641727,
+        "min_macro_f1": 0.7667910204825709,
+        "max_macro_f1": 0.8158655661649673,
+        "mean_log_loss": 0.49529341470977106,
+        "std_log_loss": 0.01941869387013493,
+        "min_log_loss": 0.4788488951578416,
+        "max_log_loss": 0.5214209992957269,
+        "mean_multiclass_brier": 0.29523245693585415,
+        "std_multiclass_brier": 0.010021703235681589,
+        "min_multiclass_brier": 0.281601099215575,
+        "max_multiclass_brier": 0.30599550582947377
+      },
+      {
+        "task": "three_class_diagnosis",
+        "modality": "current",
+        "split": "specimen_fold",
+        "folds": 5,
+        "mean_accuracy": 0.3725,
+        "std_accuracy": 0.13628248848134034,
+        "min_accuracy": 0.24166666666666667,
+        "max_accuracy": 0.6,
+        "mean_balanced_accuracy": 0.3725,
+        "std_balanced_accuracy": 0.13628248848134034,
+        "min_balanced_accuracy": 0.2416666666666667,
+        "max_balanced_accuracy": 0.6,
+        "mean_macro_f1": 0.29904073047428986,
+        "std_macro_f1": 0.16725451587490753,
+        "min_macro_f1": 0.16666666666666666,
+        "max_macro_f1": 0.5892097850062452,
+        "mean_log_loss": 3.730902060512046,
+        "std_log_loss": 2.138837956728942,
+        "min_log_loss": 0.704586564038917,
+        "max_log_loss": 6.191022506190835,
+        "mean_multiclass_brier": 1.0519940133545505,
+        "std_multiclass_brier": 0.3278188480847787,
+        "min_multiclass_brier": 0.48575985947084266,
+        "max_multiclass_brier": 1.336122763556376
+      },
+      {
+        "task": "three_class_diagnosis",
+        "modality": "fusion",
+        "split": "repetition_fold",
+        "folds": 5,
+        "mean_accuracy": 0.9974999999999999,
+        "std_accuracy": 0.0037267799624996364,
+        "min_accuracy": 0.9916666666666667,
+        "max_accuracy": 1.0,
+        "mean_balanced_accuracy": 0.9974999999999999,
+        "std_balanced_accuracy": 0.0037267799624996485,
+        "min_balanced_accuracy": 0.9916666666666667,
+        "max_balanced_accuracy": 1.0,
+        "mean_macro_f1": 0.9974997069892819,
+        "std_macro_f1": 0.0037273077667004336,
+        "min_macro_f1": 0.991665364379851,
+        "max_macro_f1": 1.0,
+        "mean_log_loss": 0.02678030171118508,
+        "std_log_loss": 0.005396313154999503,
+        "min_log_loss": 0.019533326655248394,
+        "max_log_loss": 0.031882569991223186,
+        "mean_multiclass_brier": 0.007738381881887055,
+        "std_multiclass_brier": 0.0038312386678398085,
+        "min_multiclass_brier": 0.003111441489063363,
+        "max_multiclass_brier": 0.012178628381287462
+      },
+      {
+        "task": "three_class_diagnosis",
+        "modality": "fusion",
+        "split": "specimen_fold",
+        "folds": 5,
+        "mean_accuracy": 0.5866666666666667,
+        "std_accuracy": 0.2865988291826903,
+        "min_accuracy": 0.3333333333333333,
+        "max_accuracy": 0.9333333333333333,
+        "mean_balanced_accuracy": 0.5866666666666667,
+        "std_balanced_accuracy": 0.28659882918269025,
+        "min_balanced_accuracy": 0.3333333333333333,
+        "max_balanced_accuracy": 0.9333333333333332,
+        "mean_macro_f1": 0.5575718079855376,
+        "std_macro_f1": 0.3153881097927649,
+        "min_macro_f1": 0.2222222222222222,
+        "max_macro_f1": 0.9326599326599326,
+        "mean_log_loss": 2.3513198794326597,
+        "std_log_loss": 1.9728059128801696,
+        "min_log_loss": 0.15316573631339406,
+        "max_log_loss": 3.930483154433203,
+        "mean_multiclass_brier": 0.7275238940429235,
+        "std_multiclass_brier": 0.5630995778315718,
+        "min_multiclass_brier": 0.08454568047451949,
+        "max_multiclass_brier": 1.246175152465023
+      },
+      {
+        "task": "three_class_diagnosis",
+        "modality": "vibration",
+        "split": "repetition_fold",
+        "folds": 5,
+        "mean_accuracy": 0.9758333333333333,
+        "std_accuracy": 0.0068465319688145515,
+        "min_accuracy": 0.9666666666666667,
+        "max_accuracy": 0.9833333333333333,
+        "mean_balanced_accuracy": 0.9758333333333333,
+        "std_balanced_accuracy": 0.006846531968814603,
+        "min_balanced_accuracy": 0.9666666666666667,
+        "max_balanced_accuracy": 0.9833333333333334,
+        "mean_macro_f1": 0.9757781711221808,
+        "std_macro_f1": 0.006889908416099709,
+        "min_macro_f1": 0.9665598791477835,
+        "max_macro_f1": 0.9833069651158248,
+        "mean_log_loss": 0.11295526961450339,
+        "std_log_loss": 0.010276598099551218,
+        "min_log_loss": 0.10383430768227762,
+        "max_log_loss": 0.12474479326240019,
+        "mean_multiclass_brier": 0.051554771321972226,
+        "std_multiclass_brier": 0.0072553007447304085,
+        "min_multiclass_brier": 0.044634567331122164,
+        "max_multiclass_brier": 0.05994281012255214
+      },
+      {
+        "task": "three_class_diagnosis",
+        "modality": "vibration",
+        "split": "specimen_fold",
+        "folds": 5,
+        "mean_accuracy": 0.5583333333333333,
+        "std_accuracy": 0.28418988174966553,
+        "min_accuracy": 0.25833333333333336,
+        "max_accuracy": 0.9166666666666666,
+        "mean_balanced_accuracy": 0.5583333333333333,
+        "std_balanced_accuracy": 0.28418988174966553,
+        "min_balanced_accuracy": 0.25833333333333336,
+        "max_balanced_accuracy": 0.9166666666666666,
+        "mean_macro_f1": 0.5353129806460799,
+        "std_macro_f1": 0.2836451154901994,
+        "min_macro_f1": 0.286015503875969,
+        "max_macro_f1": 0.9153439153439153,
+        "mean_log_loss": 2.7883108082113646,
+        "std_log_loss": 2.1054291567263586,
+        "min_log_loss": 0.4743112195523139,
+        "max_log_loss": 4.797555357801233,
+        "mean_multiclass_brier": 0.7885682554194412,
+        "std_multiclass_brier": 0.4999321467422366,
+        "min_multiclass_brier": 0.17888215349949824,
+        "max_multiclass_brier": 1.2771120419906403
+      }
+    ],
+    "diagnosis_confusion_matrices": {
+      "vibration__repetition_fold": [
+        [
+          400,
+          0,
+          0
+        ],
+        [
+          0,
+          384,
+          16
+        ],
+        [
+          7,
+          6,
+          387
+        ]
+      ],
+      "vibration__specimen_fold": [
+        [
+          282,
+          0,
+          118
+        ],
+        [
+          4,
+          240,
+          156
+        ],
+        [
+          7,
+          245,
+          148
+        ]
+      ],
+      "current__repetition_fold": [
+        [
+          336,
+          13,
+          51
+        ],
+        [
+          48,
+          304,
+          48
+        ],
+        [
+          24,
+          66,
+          310
+        ]
+      ],
+      "current__specimen_fold": [
+        [
+          236,
+          53,
+          111
+        ],
+        [
+          94,
+          155,
+          151
+        ],
+        [
+          187,
+          157,
+          56
+        ]
+      ],
+      "fusion__repetition_fold": [
+        [
+          400,
+          0,
+          0
+        ],
+        [
+          0,
+          398,
+          2
+        ],
+        [
+          1,
+          0,
+          399
+        ]
+      ],
+      "fusion__specimen_fold": [
+        [
+          304,
+          16,
+          80
+        ],
+        [
+          0,
+          209,
+          191
+        ],
+        [
+          1,
+          208,
+          191
+        ]
+      ]
+    },
+    "protocol": "qrei-unified-v2-logistic-baselines",
+    "records": 1200,
+    "class_counts": {
+      "healthy": 400,
+      "real_outer_race": 400,
+      "real_inner_race": 400
+    },
+    "fixed_C": 1.0,
+    "features_by_modality": {
+      "vibration": 40,
+      "current": 80,
+      "fusion": 120
+    }
+  },
+  "pseudolabels": {
+    "protocol": "qrei-unified-v2-balanced-specimen-pseudolabels",
+    "rng_seed": 20260811,
+    "balanced_permutations": 200,
+    "uniform_guessing_expected_accuracy": 0.3333333333333333,
+    "summaries": [
+      {
+        "modality": "vibration",
+        "split": "repetition_fold",
+        "permutations": 200,
+        "accuracy_mean": 0.9267875,
+        "accuracy_min": 0.8258333333333333,
+        "accuracy_median": 0.9308333333333334,
+        "accuracy_max": 0.9966666666666667,
+        "accuracy_std": 0.03215346947881993,
+        "accuracy_q025": 0.8682916666666667,
+        "accuracy_q975": 0.9767291666666668
+      },
+      {
+        "modality": "vibration",
+        "split": "specimen_fold",
+        "permutations": 200,
+        "accuracy_mean": 0.29045,
+        "accuracy_min": 0.016666666666666666,
+        "accuracy_median": 0.28625,
+        "accuracy_max": 0.5875,
+        "accuracy_std": 0.13423098274275155,
+        "accuracy_q025": 0.04729166666666667,
+        "accuracy_q975": 0.5453541666666669
+      },
+      {
+        "modality": "current",
+        "split": "repetition_fold",
+        "permutations": 200,
+        "accuracy_mean": 0.8203083333333333,
+        "accuracy_min": 0.615,
+        "accuracy_median": 0.8216666666666667,
+        "accuracy_max": 0.9633333333333333,
+        "accuracy_std": 0.06275674846536651,
+        "accuracy_q025": 0.6990625,
+        "accuracy_q975": 0.9341875000000001
+      },
+      {
+        "modality": "current",
+        "split": "specimen_fold",
+        "permutations": 200,
+        "accuracy_mean": 0.2868416666666667,
+        "accuracy_min": 0.011666666666666667,
+        "accuracy_median": 0.28625,
+        "accuracy_max": 0.5558333333333334,
+        "accuracy_std": 0.10521804717416405,
+        "accuracy_q025": 0.0754375,
+        "accuracy_q975": 0.4995625000000001
+      },
+      {
+        "modality": "fusion",
+        "split": "repetition_fold",
+        "permutations": 200,
+        "accuracy_mean": 0.9945708333333334,
+        "accuracy_min": 0.9758333333333333,
+        "accuracy_median": 0.9958333333333333,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.004874168671690529,
+        "accuracy_q025": 0.9824375000000002,
+        "accuracy_q975": 1.0
+      },
+      {
+        "modality": "fusion",
+        "split": "specimen_fold",
+        "permutations": 200,
+        "accuracy_mean": 0.28389583333333335,
+        "accuracy_min": 0.0016666666666666666,
+        "accuracy_median": 0.2808333333333333,
+        "accuracy_max": 0.6725,
+        "accuracy_std": 0.13030233541499087,
+        "accuracy_q025": 0.04385416666666667,
+        "accuracy_q975": 0.5533333333333333
+      }
+    ],
+    "paired_repetition_minus_specimen": [
+      {
+        "modality": "vibration",
+        "mean_repetition_minus_specimen": 0.6363374999999999,
+        "q025": 0.42079166666666673,
+        "median": 0.6391666666666667,
+        "q975": 0.841125,
+        "fraction_positive": 1.0
+      },
+      {
+        "modality": "current",
+        "mean_repetition_minus_specimen": 0.5334666666666666,
+        "q025": 0.38895833333333324,
+        "median": 0.535,
+        "q975": 0.6958958333333333,
+        "fraction_positive": 1.0
+      },
+      {
+        "modality": "fusion",
+        "mean_repetition_minus_specimen": 0.710675,
+        "q025": 0.44579166666666675,
+        "median": 0.7175,
+        "q975": 0.9469375000000002,
+        "fraction_positive": 1.0
+      }
+    ]
+  },
+  "control_a": {
+    "protocol": "qrei-unified-v2-class-conditional-bearing-identity",
+    "classes": [
+      "healthy",
+      "real_inner_race",
+      "real_outer_race"
+    ],
+    "chance_accuracy": 0.2,
+    "summaries": [
+      {
+        "class_label": "healthy",
+        "modality": "vibration",
+        "folds": 5,
+        "accuracy_mean": 0.9974999999999999,
+        "accuracy_min": 0.9875,
+        "accuracy_median": 1.0,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.005590169943749454,
+        "accuracy_q025": 0.98875,
+        "accuracy_q975": 1.0
+      },
+      {
+        "class_label": "healthy",
+        "modality": "current",
+        "folds": 5,
+        "accuracy_mean": 1.0,
+        "accuracy_min": 1.0,
+        "accuracy_median": 1.0,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.0,
+        "accuracy_q025": 1.0,
+        "accuracy_q975": 1.0
+      },
+      {
+        "class_label": "healthy",
+        "modality": "fusion",
+        "folds": 5,
+        "accuracy_mean": 1.0,
+        "accuracy_min": 1.0,
+        "accuracy_median": 1.0,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.0,
+        "accuracy_q025": 1.0,
+        "accuracy_q975": 1.0
+      },
+      {
+        "class_label": "real_inner_race",
+        "modality": "vibration",
+        "folds": 5,
+        "accuracy_mean": 1.0,
+        "accuracy_min": 1.0,
+        "accuracy_median": 1.0,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.0,
+        "accuracy_q025": 1.0,
+        "accuracy_q975": 1.0
+      },
+      {
+        "class_label": "real_inner_race",
+        "modality": "current",
+        "folds": 5,
+        "accuracy_mean": 0.9949999999999999,
+        "accuracy_min": 0.975,
+        "accuracy_median": 1.0,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.011180339887498959,
+        "accuracy_q025": 0.9775,
+        "accuracy_q975": 1.0
+      },
+      {
+        "class_label": "real_inner_race",
+        "modality": "fusion",
+        "folds": 5,
+        "accuracy_mean": 1.0,
+        "accuracy_min": 1.0,
+        "accuracy_median": 1.0,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.0,
+        "accuracy_q025": 1.0,
+        "accuracy_q975": 1.0
+      },
+      {
+        "class_label": "real_outer_race",
+        "modality": "vibration",
+        "folds": 5,
+        "accuracy_mean": 1.0,
+        "accuracy_min": 1.0,
+        "accuracy_median": 1.0,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.0,
+        "accuracy_q025": 1.0,
+        "accuracy_q975": 1.0
+      },
+      {
+        "class_label": "real_outer_race",
+        "modality": "current",
+        "folds": 5,
+        "accuracy_mean": 0.9674999999999999,
+        "accuracy_min": 0.95,
+        "accuracy_median": 0.975,
+        "accuracy_max": 0.9875,
+        "accuracy_std": 0.016770509831248455,
+        "accuracy_q025": 0.95,
+        "accuracy_q975": 0.9862500000000001
+      },
+      {
+        "class_label": "real_outer_race",
+        "modality": "fusion",
+        "folds": 5,
+        "accuracy_mean": 1.0,
+        "accuracy_min": 1.0,
+        "accuracy_median": 1.0,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.0,
+        "accuracy_q025": 1.0,
+        "accuracy_q975": 1.0
+      }
+    ]
+  },
+  "control_b2": {
+    "protocol": "qrei-unified-v2-fault-orthogonal-identity-decoder",
+    "construction": "deterministic mapping of V2 out-of-fold bearing-identity predictions; no pseudolabel model refitting",
+    "orthogonal_mapping_count": 552,
+    "identity_prediction_rows": 3600,
+    "summaries": [
+      {
+        "modality": "vibration",
+        "mappings": 552,
+        "accuracy_mean": 0.9904166666666667,
+        "accuracy_min": 0.9891666666666666,
+        "accuracy_median": 0.99,
+        "accuracy_max": 0.9925,
+        "accuracy_std": 0.0007794108974384457,
+        "accuracy_q025": 0.9891666666666666,
+        "accuracy_q975": 0.9916666666666667
+      },
+      {
+        "modality": "current",
+        "mappings": 552,
+        "accuracy_mean": 0.9750000000000001,
+        "accuracy_min": 0.9708333333333333,
+        "accuracy_median": 0.9741666666666666,
+        "accuracy_max": 0.9816666666666667,
+        "accuracy_std": 0.0031911604063190996,
+        "accuracy_q025": 0.9708333333333333,
+        "accuracy_q975": 0.9808333333333333
+      },
+      {
+        "modality": "fusion",
+        "mappings": 552,
+        "accuracy_mean": 0.9987499999999999,
+        "accuracy_min": 0.9983333333333333,
+        "accuracy_median": 0.9983333333333333,
+        "accuracy_max": 1.0,
+        "accuracy_std": 0.0005384022579158731,
+        "accuracy_q025": 0.9983333333333333,
+        "accuracy_q975": 1.0
+      }
+    ]
+  },
+  "control_c": {
+    "protocol": "qrei-unified-v2-exhaustive-class-balanced-specimen-partitions",
+    "unique_class_balanced_test_triplets": 125,
+    "admissible_partition_count": 14400,
+    "prespecified_primary_partition_id": 1,
+    "interpretation": "finite design sensitivity distribution, not a confidence interval",
+    "summaries": [
+      {
+        "modality": "vibration",
+        "partitions": 14400,
+        "prespecified_primary_mean_balanced_accuracy": 0.5583333333333333,
+        "primary_percentile_rank_weak": 0.5932638888888889,
+        "partition_mean_balanced_accuracy_mean": 0.5533666666666667,
+        "partition_mean_balanced_accuracy_min": 0.465,
+        "partition_mean_balanced_accuracy_median": 0.5508333333333333,
+        "partition_mean_balanced_accuracy_max": 0.6891666666666667,
+        "partition_mean_balanced_accuracy_std": 0.03692959498509157,
+        "partition_mean_balanced_accuracy_q025": 0.49000000000000005,
+        "partition_mean_balanced_accuracy_q975": 0.6316666666666667
+      },
+      {
+        "modality": "current",
+        "partitions": 14400,
+        "prespecified_primary_mean_balanced_accuracy": 0.3725,
+        "primary_percentile_rank_weak": 0.8915972222222223,
+        "partition_mean_balanced_accuracy_mean": 0.2957333333333333,
+        "partition_mean_balanced_accuracy_min": 0.07833333333333334,
+        "partition_mean_balanced_accuracy_median": 0.29583333333333334,
+        "partition_mean_balanced_accuracy_max": 0.51,
+        "partition_mean_balanced_accuracy_std": 0.06137431986901916,
+        "partition_mean_balanced_accuracy_q025": 0.17497916666666669,
+        "partition_mean_balanced_accuracy_q975": 0.4133333333333333
+      },
+      {
+        "modality": "fusion",
+        "partitions": 14400,
+        "prespecified_primary_mean_balanced_accuracy": 0.5866666666666667,
+        "primary_percentile_rank_weak": 0.8340972222222223,
+        "partition_mean_balanced_accuracy_mean": 0.5307666666666667,
+        "partition_mean_balanced_accuracy_min": 0.3275,
+        "partition_mean_balanced_accuracy_median": 0.5316666666666666,
+        "partition_mean_balanced_accuracy_max": 0.7066666666666667,
+        "partition_mean_balanced_accuracy_std": 0.057415446608656426,
+        "partition_mean_balanced_accuracy_q025": 0.4125,
+        "partition_mean_balanced_accuracy_q975": 0.6425
+      }
+    ]
+  },
+  "operating_transfer": {
+    "protocol": "qrei-unified-v2-operating-transfer",
+    "settings": [
+      "N09_M07_F10",
+      "N15_M01_F10",
+      "N15_M07_F04",
+      "N15_M07_F10"
+    ],
+    "summaries": [
+      {
+        "design": "condition_only_shared_bearings",
+        "modality": "vibration",
+        "metric": "balanced_accuracy",
+        "cells": 4,
+        "mean": 0.7725,
+        "min": 0.4666666666666666,
+        "median": 0.8283333333333334,
+        "max": 0.9666666666666667,
+        "std": 0.23267168093928214,
+        "q025": 0.4854166666666666,
+        "q975": 0.9646666666666667
+      },
+      {
+        "design": "condition_only_shared_bearings",
+        "modality": "vibration",
+        "metric": "macro_f1",
+        "cells": 4,
+        "mean": 0.7491980808456488,
+        "min": 0.36762240902736926,
+        "median": 0.8314792297904222,
+        "max": 0.9662114547743812,
+        "std": 0.2767461123516836,
+        "q025": 0.39427666646716336,
+        "q975": 0.9642415420180191
+      },
+      {
+        "design": "condition_only_shared_bearings",
+        "modality": "current",
+        "metric": "balanced_accuracy",
+        "cells": 4,
+        "mean": 0.5358333333333333,
+        "min": 0.3333333333333333,
+        "median": 0.515,
+        "max": 0.7799999999999999,
+        "std": 0.23628882201112983,
+        "q025": 0.3333333333333333,
+        "q975": 0.7737499999999999
+      },
+      {
+        "design": "condition_only_shared_bearings",
+        "modality": "current",
+        "metric": "macro_f1",
+        "cells": 4,
+        "mean": 0.4480550521889177,
+        "min": 0.16666666666666666,
+        "median": 0.42333333333333334,
+        "max": 0.7788868754223376,
+        "std": 0.32741767468717614,
+        "q025": 0.16666666666666666,
+        "q975": 0.7714703597656623
+      },
+      {
+        "design": "condition_only_shared_bearings",
+        "modality": "fusion",
+        "metric": "balanced_accuracy",
+        "cells": 4,
+        "mean": 0.63,
+        "min": 0.3333333333333333,
+        "median": 0.6400000000000001,
+        "max": 0.9066666666666666,
+        "std": 0.27518344050092464,
+        "q025": 0.3430833333333333,
+        "q975": 0.8999166666666666
+      },
+      {
+        "design": "condition_only_shared_bearings",
+        "modality": "fusion",
+        "metric": "macro_f1",
+        "cells": 4,
+        "mean": 0.5648740951128823,
+        "min": 0.16835016835016836,
+        "median": 0.5931727252537268,
+        "max": 0.9048007615939073,
+        "std": 0.3523555654922411,
+        "q025": 0.18360309821478837,
+        "q975": 0.8980374207715406
+      },
+      {
+        "design": "joint_unseen_specimen_and_setting",
+        "modality": "vibration",
+        "metric": "balanced_accuracy",
+        "cells": 20,
+        "mean": 0.4624999999999999,
+        "min": 0.15,
+        "median": 0.3333333333333333,
+        "max": 1.0,
+        "std": 0.23699353508590615,
+        "q025": 0.17375,
+        "q975": 0.97625
+      },
+      {
+        "design": "joint_unseen_specimen_and_setting",
+        "modality": "vibration",
+        "metric": "macro_f1",
+        "cells": 20,
+        "mean": 0.3841247872157539,
+        "min": 0.16666666666666666,
+        "median": 0.2800387596899225,
+        "max": 1.0,
+        "std": 0.2502239324766366,
+        "q025": 0.16666666666666666,
+        "q975": 0.9761156505342551
+      },
+      {
+        "design": "joint_unseen_specimen_and_setting",
+        "modality": "current",
+        "metric": "balanced_accuracy",
+        "cells": 20,
+        "mean": 0.3474999999999999,
+        "min": 0.0,
+        "median": 0.3333333333333333,
+        "max": 0.7999999999999999,
+        "std": 0.1621560687833633,
+        "q025": 0.03166666666666667,
+        "q975": 0.697083333333333
+      },
+      {
+        "design": "joint_unseen_specimen_and_setting",
+        "modality": "current",
+        "metric": "macro_f1",
+        "cells": 20,
+        "mean": 0.23545389362170424,
+        "min": 0.0,
+        "median": 0.18137254901960784,
+        "max": 0.7880931329207191,
+        "std": 0.17155218815586679,
+        "q025": 0.019791666666666666,
+        "q975": 0.6566563141613848
+      },
+      {
+        "design": "joint_unseen_specimen_and_setting",
+        "modality": "fusion",
+        "metric": "balanced_accuracy",
+        "cells": 20,
+        "mean": 0.42000000000000004,
+        "min": 0.3333333333333333,
+        "median": 0.3333333333333333,
+        "max": 1.0,
+        "std": 0.18085243249450997,
+        "q025": 0.3333333333333333,
+        "q975": 0.8416666666666661
+      },
+      {
+        "design": "joint_unseen_specimen_and_setting",
+        "modality": "fusion",
+        "metric": "macro_f1",
+        "cells": 20,
+        "mean": 0.3221592982199059,
+        "min": 0.16666666666666666,
+        "median": 0.2222222222222222,
+        "max": 1.0,
+        "std": 0.20495155052638933,
+        "q025": 0.16666666666666666,
+        "q975": 0.7888888888888882
+      }
+    ]
+  },
+  "bearing_bootstrap": {
+    "protocol": "qrei-unified-v2-bearing-bootstrap",
+    "rng_seed": 20260811,
+    "replicates": 10000,
+    "resampling_unit": "physical bearing stratified by true class",
+    "summaries": [
+      {
+        "modality": "vibration",
+        "observed_repetition_balanced_accuracy": 0.9758333333333334,
+        "observed_specimen_balanced_accuracy": 0.5583333333333332,
+        "observed_paired_gap": 0.4175000000000002,
+        "repetition_balanced_accuracy_q025": 0.9558333333333332,
+        "repetition_balanced_accuracy_median": 0.9758333333333334,
+        "repetition_balanced_accuracy_q975": 0.9933333333333333,
+        "specimen_balanced_accuracy_q025": 0.3566666666666667,
+        "specimen_balanced_accuracy_median": 0.56,
+        "specimen_balanced_accuracy_q975": 0.7416666666666667,
+        "paired_gap_q025": 0.24166666666666659,
+        "paired_gap_median": 0.4141666666666667,
+        "paired_gap_q975": 0.6108333333333333
+      },
+      {
+        "modality": "current",
+        "observed_repetition_balanced_accuracy": 0.7916666666666666,
+        "observed_specimen_balanced_accuracy": 0.37250000000000005,
+        "observed_paired_gap": 0.4191666666666666,
+        "repetition_balanced_accuracy_q025": 0.6699999999999999,
+        "repetition_balanced_accuracy_median": 0.7925,
+        "repetition_balanced_accuracy_q975": 0.8991666666666666,
+        "specimen_balanced_accuracy_q025": 0.19166666666666665,
+        "specimen_balanced_accuracy_median": 0.3691666666666667,
+        "specimen_balanced_accuracy_q975": 0.552520833333333,
+        "paired_gap_q025": 0.2908333333333334,
+        "paired_gap_median": 0.4199999999999999,
+        "paired_gap_q975": 0.5533541666666665
+      },
+      {
+        "modality": "fusion",
+        "observed_repetition_balanced_accuracy": 0.9975,
+        "observed_specimen_balanced_accuracy": 0.5866666666666667,
+        "observed_paired_gap": 0.4108333333333334,
+        "repetition_balanced_accuracy_q025": 0.9941666666666666,
+        "repetition_balanced_accuracy_median": 0.9975,
+        "repetition_balanced_accuracy_q975": 1.0,
+        "specimen_balanced_accuracy_q025": 0.3666666666666667,
+        "specimen_balanced_accuracy_median": 0.5866666666666667,
+        "specimen_balanced_accuracy_q975": 0.7958333333333334,
+        "paired_gap_q025": 0.20166666666666666,
+        "paired_gap_median": 0.41000000000000003,
+        "paired_gap_q975": 0.6300000000000001
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "protocol": "paderborn-primary15-frozen-20260811",
+  "partial_mode": false,
+  "audited_bearings": [
+    "K001",
+    "K002",
+    "K003",
+    "K004",
+    "K005",
+    "KA04",
+    "KA15",
+    "KA16",
+    "KA22",
+    "KA30",
+    "KI04",
+    "KI14",
+    "KI16",
+    "KI18",
+    "KI21"
+  ],
+  "bearing_count": 15,
+  "record_count": 1200,
+  "bearing_record_counts": {
+    "K001": 80,
+    "K002": 80,
+    "K003": 80,
+    "K004": 80,
+    "K005": 80,
+    "KA04": 80,
+    "KA15": 80,
+    "KA16": 80,
+    "KA22": 80,
+    "KA30": 80,
+    "KI04": 80,
+    "KI14": 80,
+    "KI16": 80,
+    "KI18": 80,
+    "KI21": 80
+  },
+  "class_record_counts": {
+    "healthy": 400,
+    "real_inner_race": 400,
+    "real_outer_race": 400
+  },
+  "required_synchronous_channels": [
+    "phase_current_1",
+    "phase_current_2",
+    "vibration_1"
+  ],
+  "sampling_hz_range": [
+    63998.934772764085,
+    72961.54681087175
+  ],
+  "duration_s_range": [
+    3.999984601690649,
+    4.672453600733628
+  ],
+  "errors": [],
+  "passed": true
+}

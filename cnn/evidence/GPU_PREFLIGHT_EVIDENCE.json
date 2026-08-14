@@ -1,0 +1,12 @@
+{
+  "cache_sha256": "257a55f3d3ece8c21807799ad9104a7623c5f22c62ccceb05cc72b95d8da2e02",
+  "cache_shape": [
+    1200,
+    3,
+    2049
+  ],
+  "torch_version": "2.7.1+cu126",
+  "cuda_version": "12.6",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "passed": true
+}

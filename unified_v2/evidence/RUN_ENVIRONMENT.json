@@ -1,0 +1,36 @@
+{
+  "protocol": "qrei-unified-v2-environment",
+  "feature_table": {
+    "path": "primary/derived/paderborn_record_features.csv",
+    "bytes": 2876552,
+    "sha256": "82f5438e6fb83a3c1dfbbf78bd48c79722dcbe016d1b754c14cee07223729b7e",
+    "records": 1200,
+    "features": 120
+  },
+  "environment": {
+    "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+    "executable": "frozen V2 interpreter; see unified_v2/code/requirements_v2_exact.txt",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pandas": "2.2.2",
+    "scikit_learn": "1.6.1",
+    "joblib": "1.4.2",
+    "threadpoolctl": "3.5.0",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "threadpool_info": [
+      {
+        "status": "not enumerated",
+        "reason": "Windows OpenBLAS DLL-path safety guard"
+      }
+    ]
+  },
+  "mode": "full",
+  "jobs": 8
+}

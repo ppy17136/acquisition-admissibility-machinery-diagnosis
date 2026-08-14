@@ -1,0 +1,17 @@
+{
+  "seed": 1002,
+  "modality": "fusion",
+  "split": "specimen_fold",
+  "test_fold": 2,
+  "validation_fold": 3,
+  "train_rows": 720,
+  "validation_rows": 240,
+  "test_rows": 240,
+  "best_epoch": 6,
+  "epochs_run": 18,
+  "balanced_accuracy": 0.3625,
+  "macro_f1": 0.2879147808256858,
+  "accuracy": 0.3625,
+  "device": "cuda",
+  "elapsed_s": 4.634103059768677
+}

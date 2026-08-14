@@ -1,0 +1,17 @@
+{
+  "seed": 1001,
+  "modality": "current",
+  "split": "specimen_fold",
+  "test_fold": 3,
+  "validation_fold": 4,
+  "train_rows": 720,
+  "validation_rows": 240,
+  "test_rows": 240,
+  "best_epoch": 16,
+  "epochs_run": 28,
+  "balanced_accuracy": 0.6291666666666667,
+  "macro_f1": 0.5453001360412792,
+  "accuracy": 0.6291666666666667,
+  "device": "cuda",
+  "elapsed_s": 6.202943563461304
+}

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and versioned archive."
+title: "Before model accuracy: Acquisition-admissibility gates expose specimen-identity shortcuts in machinery diagnosis"
+type: software
+version: 2.0.0
+date-released: 2026-08-14
+authors:
+  - family-names: Ma
+    given-names: Jia Jun
+    orcid: "https://orcid.org/0009-0000-4754-9891"
+  - family-names: Lü
+    given-names: Bai Lin
+    orcid: "https://orcid.org/0000-0002-8922-8399"
+  - family-names: Li
+    given-names: Tian Xiang
+    orcid: "https://orcid.org/0009-0006-4431-9613"
+  - family-names: Ren
+    given-names: Xiao
+    orcid: "https://orcid.org/0009-0000-4591-3098"
+  - family-names: Sun
+    given-names: Xu Dong
+    orcid: "https://orcid.org/0009-0005-8157-3787"
+  - family-names: Shang
+    given-names: Jia Bao
+    orcid: "https://orcid.org/0009-0005-5621-0634"
+  - family-names: Zhao
+    given-names: Chao
+    orcid: "https://orcid.org/0009-0004-6623-9871"
+  - family-names: Liu
+    given-names: Zhi Zhuo
+    orcid: "https://orcid.org/0009-0004-4526-3207"
+  - family-names: Wei
+    given-names: Zi Jian
+    orcid: "https://orcid.org/0009-0003-4932-5703"
+abstract: "Code and derived public evidence for a provenance-gated audit of specimen-identity shortcuts and split-unit sensitivity in machinery diagnosis."
+license: MIT

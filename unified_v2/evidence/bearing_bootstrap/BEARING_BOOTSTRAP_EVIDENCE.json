@@ -1,0 +1,53 @@
+{
+  "protocol": "qrei-unified-v2-bearing-bootstrap",
+  "rng_seed": 20260811,
+  "replicates": 10000,
+  "resampling_unit": "physical bearing stratified by true class",
+  "summaries": [
+    {
+      "modality": "vibration",
+      "observed_repetition_balanced_accuracy": 0.9758333333333334,
+      "observed_specimen_balanced_accuracy": 0.5583333333333332,
+      "observed_paired_gap": 0.4175000000000002,
+      "repetition_balanced_accuracy_q025": 0.9558333333333332,
+      "repetition_balanced_accuracy_median": 0.9758333333333334,
+      "repetition_balanced_accuracy_q975": 0.9933333333333333,
+      "specimen_balanced_accuracy_q025": 0.3566666666666667,
+      "specimen_balanced_accuracy_median": 0.56,
+      "specimen_balanced_accuracy_q975": 0.7416666666666667,
+      "paired_gap_q025": 0.24166666666666659,
+      "paired_gap_median": 0.4141666666666667,
+      "paired_gap_q975": 0.6108333333333333
+    },
+    {
+      "modality": "current",
+      "observed_repetition_balanced_accuracy": 0.7916666666666666,
+      "observed_specimen_balanced_accuracy": 0.37250000000000005,
+      "observed_paired_gap": 0.4191666666666666,
+      "repetition_balanced_accuracy_q025": 0.6699999999999999,
+      "repetition_balanced_accuracy_median": 0.7925,
+      "repetition_balanced_accuracy_q975": 0.8991666666666666,
+      "specimen_balanced_accuracy_q025": 0.19166666666666665,
+      "specimen_balanced_accuracy_median": 0.3691666666666667,
+      "specimen_balanced_accuracy_q975": 0.552520833333333,
+      "paired_gap_q025": 0.2908333333333334,
+      "paired_gap_median": 0.4199999999999999,
+      "paired_gap_q975": 0.5533541666666665
+    },
+    {
+      "modality": "fusion",
+      "observed_repetition_balanced_accuracy": 0.9975,
+      "observed_specimen_balanced_accuracy": 0.5866666666666667,
+      "observed_paired_gap": 0.4108333333333334,
+      "repetition_balanced_accuracy_q025": 0.9941666666666666,
+      "repetition_balanced_accuracy_median": 0.9975,
+      "repetition_balanced_accuracy_q975": 1.0,
+      "specimen_balanced_accuracy_q025": 0.3666666666666667,
+      "specimen_balanced_accuracy_median": 0.5866666666666667,
+      "specimen_balanced_accuracy_q975": 0.7958333333333334,
+      "paired_gap_q025": 0.20166666666666666,
+      "paired_gap_median": 0.41000000000000003,
+      "paired_gap_q975": 0.6300000000000001
+    }
+  ]
+}

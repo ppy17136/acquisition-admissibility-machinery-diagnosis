@@ -1,0 +1,41 @@
+{
+  "protocol": "qrei-unified-v2-fault-orthogonal-identity-decoder",
+  "construction": "deterministic mapping of V2 out-of-fold bearing-identity predictions; no pseudolabel model refitting",
+  "orthogonal_mapping_count": 552,
+  "identity_prediction_rows": 3600,
+  "summaries": [
+    {
+      "modality": "vibration",
+      "mappings": 552,
+      "accuracy_mean": 0.9904166666666667,
+      "accuracy_min": 0.9891666666666666,
+      "accuracy_median": 0.99,
+      "accuracy_max": 0.9925,
+      "accuracy_std": 0.0007794108974384457,
+      "accuracy_q025": 0.9891666666666666,
+      "accuracy_q975": 0.9916666666666667
+    },
+    {
+      "modality": "current",
+      "mappings": 552,
+      "accuracy_mean": 0.9750000000000001,
+      "accuracy_min": 0.9708333333333333,
+      "accuracy_median": 0.9741666666666666,
+      "accuracy_max": 0.9816666666666667,
+      "accuracy_std": 0.0031911604063190996,
+      "accuracy_q025": 0.9708333333333333,
+      "accuracy_q975": 0.9808333333333333
+    },
+    {
+      "modality": "fusion",
+      "mappings": 552,
+      "accuracy_mean": 0.9987499999999999,
+      "accuracy_min": 0.9983333333333333,
+      "accuracy_median": 0.9983333333333333,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.0005384022579158731,
+      "accuracy_q025": 0.9983333333333333,
+      "accuracy_q975": 1.0
+    }
+  ]
+}

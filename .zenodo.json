@@ -1,0 +1,55 @@
+{
+  "title": "Before model accuracy: Acquisition-admissibility gates expose specimen-identity shortcuts in machinery diagnosis",
+  "upload_type": "software",
+  "description": "Versioned reproducibility record for acquisition-admissibility gates, split-unit sensitivity, and specimen-identity shortcut audits in machinery diagnosis. The release contains the frozen 1,200-record public-data inventory, unified logistic evidence, 90-fit spectral-CNN confirmation, finite control audits, and one-command verification.",
+  "creators": [
+    {
+      "name": "Ma, Jia Jun",
+      "orcid": "0009-0000-4754-9891"
+    },
+    {
+      "name": "Lü, Bai Lin",
+      "orcid": "0000-0002-8922-8399"
+    },
+    {
+      "name": "Li, Tian Xiang",
+      "orcid": "0009-0006-4431-9613"
+    },
+    {
+      "name": "Ren, Xiao",
+      "orcid": "0009-0000-4591-3098"
+    },
+    {
+      "name": "Sun, Xu Dong",
+      "orcid": "0009-0005-8157-3787"
+    },
+    {
+      "name": "Shang, Jia Bao",
+      "orcid": "0009-0005-5621-0634"
+    },
+    {
+      "name": "Zhao, Chao",
+      "orcid": "0009-0004-6623-9871"
+    },
+    {
+      "name": "Liu, Zhi Zhuo",
+      "orcid": "0009-0004-4526-3207"
+    },
+    {
+      "name": "Wei, Zi Jian",
+      "orcid": "0009-0003-4932-5703"
+    }
+  ],
+  "version": "2.0.0",
+  "publication_date": "2026-08-14",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "machinery diagnosis",
+    "evaluation protocol",
+    "specimen identity",
+    "data leakage",
+    "bearing fault diagnosis",
+    "reproducibility"
+  ]
+}

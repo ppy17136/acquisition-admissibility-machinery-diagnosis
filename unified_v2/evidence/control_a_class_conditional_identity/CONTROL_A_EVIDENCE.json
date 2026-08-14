@@ -1,0 +1,119 @@
+{
+  "protocol": "qrei-unified-v2-class-conditional-bearing-identity",
+  "classes": [
+    "healthy",
+    "real_inner_race",
+    "real_outer_race"
+  ],
+  "chance_accuracy": 0.2,
+  "summaries": [
+    {
+      "class_label": "healthy",
+      "modality": "vibration",
+      "folds": 5,
+      "accuracy_mean": 0.9974999999999999,
+      "accuracy_min": 0.9875,
+      "accuracy_median": 1.0,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.005590169943749454,
+      "accuracy_q025": 0.98875,
+      "accuracy_q975": 1.0
+    },
+    {
+      "class_label": "healthy",
+      "modality": "current",
+      "folds": 5,
+      "accuracy_mean": 1.0,
+      "accuracy_min": 1.0,
+      "accuracy_median": 1.0,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.0,
+      "accuracy_q025": 1.0,
+      "accuracy_q975": 1.0
+    },
+    {
+      "class_label": "healthy",
+      "modality": "fusion",
+      "folds": 5,
+      "accuracy_mean": 1.0,
+      "accuracy_min": 1.0,
+      "accuracy_median": 1.0,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.0,
+      "accuracy_q025": 1.0,
+      "accuracy_q975": 1.0
+    },
+    {
+      "class_label": "real_inner_race",
+      "modality": "vibration",
+      "folds": 5,
+      "accuracy_mean": 1.0,
+      "accuracy_min": 1.0,
+      "accuracy_median": 1.0,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.0,
+      "accuracy_q025": 1.0,
+      "accuracy_q975": 1.0
+    },
+    {
+      "class_label": "real_inner_race",
+      "modality": "current",
+      "folds": 5,
+      "accuracy_mean": 0.9949999999999999,
+      "accuracy_min": 0.975,
+      "accuracy_median": 1.0,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.011180339887498959,
+      "accuracy_q025": 0.9775,
+      "accuracy_q975": 1.0
+    },
+    {
+      "class_label": "real_inner_race",
+      "modality": "fusion",
+      "folds": 5,
+      "accuracy_mean": 1.0,
+      "accuracy_min": 1.0,
+      "accuracy_median": 1.0,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.0,
+      "accuracy_q025": 1.0,
+      "accuracy_q975": 1.0
+    },
+    {
+      "class_label": "real_outer_race",
+      "modality": "vibration",
+      "folds": 5,
+      "accuracy_mean": 1.0,
+      "accuracy_min": 1.0,
+      "accuracy_median": 1.0,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.0,
+      "accuracy_q025": 1.0,
+      "accuracy_q975": 1.0
+    },
+    {
+      "class_label": "real_outer_race",
+      "modality": "current",
+      "folds": 5,
+      "accuracy_mean": 0.9674999999999999,
+      "accuracy_min": 0.95,
+      "accuracy_median": 0.975,
+      "accuracy_max": 0.9875,
+      "accuracy_std": 0.016770509831248455,
+      "accuracy_q025": 0.95,
+      "accuracy_q975": 0.9862500000000001
+    },
+    {
+      "class_label": "real_outer_race",
+      "modality": "fusion",
+      "folds": 5,
+      "accuracy_mean": 1.0,
+      "accuracy_min": 1.0,
+      "accuracy_median": 1.0,
+      "accuracy_max": 1.0,
+      "accuracy_std": 0.0,
+      "accuracy_q025": 1.0,
+      "accuracy_q975": 1.0
+    }
+  ]
+}

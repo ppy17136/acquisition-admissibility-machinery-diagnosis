@@ -1,0 +1,17 @@
+{
+  "protocol": "paderborn-feature-baseline-spec-20260811",
+  "records": 1200,
+  "channels": [
+    "vibration_1",
+    "phase_current_1",
+    "phase_current_2"
+  ],
+  "features_per_channel": 40,
+  "total_signal_features": 120,
+  "target_sampling_hz": 64000.0,
+  "target_samples": 256000,
+  "inventory_sha256": "12884fcd21fd9c8fc175a877b2f7b1e858b5ad3417b2917756e4a4496bce49f2",
+  "feature_table_sha256": "82f5438e6fb83a3c1dfbbf78bd48c79722dcbe016d1b754c14cee07223729b7e",
+  "elapsed_s": 173.1356019973755,
+  "all_features_finite": true
+}
