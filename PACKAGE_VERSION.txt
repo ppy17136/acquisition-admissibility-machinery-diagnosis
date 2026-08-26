@@ -1,0 +1,3 @@
+Version: 2.0.2
+Release date: 2026-08-25
+Manuscript title: Acquisition-provenance gates and direct specimen-identity controls for deployment-aligned bearing fault diagnosis
