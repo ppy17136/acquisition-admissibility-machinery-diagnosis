@@ -2,7 +2,7 @@
 
 This repository supports the manuscript **Acquisition-provenance gates and direct specimen-identity controls for deployment-aligned bearing fault diagnosis**.
 
-Release v2.0.2 preserves the frozen unified V2 numerical evidence and clarifies the mixed-licence boundary; V2 denotes the computational evidence freeze used by the verification scripts. No scientific result changed from v2.0.0.
+Release v2.0.3 preserves the frozen unified V2 numerical evidence and clarifies the mixed-licence boundary; V2 denotes the computational evidence freeze used by the verification scripts. No scientific result changed from v2.0.0.
 
 The authoritative logistic evidence is the unified V2 record under `unified_v2/`. It regenerates the primary split comparison and all logistic controls in one pinned environment from the same frozen 1,200-row feature table. The source audits and frozen feature table remain under `primary/`; superseded pre-V2 logistic summaries are intentionally omitted so the unified V2 release is the authoritative numerical record for the manuscript. Historical method scripts are retained under `primary/historical_v1_code/` for provenance only.
 

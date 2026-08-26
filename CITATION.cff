@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this mixed-license repository, please cite the associated manuscript and versioned archive and follow LICENSES.md."
 title: "Acquisition-provenance gates and direct specimen-identity controls for deployment-aligned bearing fault diagnosis"
 type: software
-version: 2.0.2
+version: 2.0.3
 date-released: 2026-08-25
 authors:
   - family-names: Ma
