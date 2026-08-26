@@ -1,0 +1,6 @@
+claim_id,headline_claim,required_gate,authoritative_evidence
+C1,Vibration and current are admissible as synchronous channels in this benchmark,G1,primary/evidence/analysis/common_time_grid/COMMON_TIME_GRID_AUDIT.json; primary/evidence/analysis/signal_inventory/PADERBORN_SIGNAL_INVENTORY_AUDIT.json; source documentation cited in manuscript refs 6-7
+C2,The physical bearing is the deployment and resampling unit,G2,unified_v2/evidence/UNIFIED_V2_EVIDENCE.json; primary/evidence/analysis/signal_inventory/PADERBORN_SIGNAL_INVENTORY_AUDIT.json
+C3,Specimen identity is directly recoverable under identity-sharing evaluation,G3,unified_v2/evidence/UNIFIED_V2_EVIDENCE.json
+C4,Bearing-held-out diagnostic accuracy is below repetition-disjoint accuracy in all modalities,G4,unified_v2/evidence/UNIFIED_V2_EVIDENCE.json
+C5,The split-gap direction persists across finite partitions and the pre-specified CNN confirmation,G4,unified_v2/evidence/UNIFIED_V2_EVIDENCE.json; cnn/evidence/aggregate/SPECTRAL_CNN_CONFIRMATORY_EVIDENCE.json

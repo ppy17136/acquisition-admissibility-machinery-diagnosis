@@ -1,7 +1,7 @@
 {
-  "title": "Before model accuracy: Acquisition-admissibility gates expose specimen-identity shortcuts in machinery diagnosis",
+  "title": "Acquisition-provenance gates and direct specimen-identity controls for deployment-aligned bearing fault diagnosis",
   "upload_type": "software",
-  "description": "Versioned reproducibility record for acquisition-admissibility gates, split-unit sensitivity, and specimen-identity shortcut audits in machinery diagnosis. The release contains the frozen 1,200-record public-data inventory, unified logistic evidence, 90-fit spectral-CNN confirmation, finite control audits, and one-command verification. This is a mixed-license release: author-created code is MIT-licensed, while Paderborn-derived caches and evidence remain subject to CC BY-NC 4.0 and source attribution. See LICENSES.md.",
+  "description": "Versioned reproducibility record for acquisition-provenance qualification, split-unit sensitivity and direct specimen-identity challenges in bearing fault diagnosis. The release contains the frozen 1,200-record public-data inventory, unified logistic evidence, 90-fit spectral-CNN confirmation, finite control audits, a claim-evidence ledger and one-command verification. This is a mixed-license release: author-created code is MIT-licensed, while Paderborn-derived caches and evidence remain subject to CC BY-NC 4.0 and source attribution. See LICENSES.md.",
   "creators": [
     {
       "name": "Ma, Jia Jun",
@@ -40,16 +40,16 @@
       "orcid": "0009-0003-4932-5703"
     }
   ],
-  "version": "2.0.1",
-  "publication_date": "2026-08-14",
+  "version": "2.0.2",
+  "publication_date": "2026-08-25",
   "access_right": "open",
   "license": "cc-by-nc-4.0",
   "keywords": [
-    "machinery diagnosis",
-    "evaluation protocol",
-    "specimen identity",
-    "data leakage",
     "bearing fault diagnosis",
+    "acquisition provenance",
+    "specimen identity",
+    "deployment validation",
+    "negative control",
     "reproducibility"
   ]
 }
