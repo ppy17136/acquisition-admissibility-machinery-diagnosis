@@ -1,5 +1,5 @@
 {
-  "protocol": "qrei-unified-v2-balanced-specimen-pseudolabels",
+  "protocol": "unified-v2-balanced-specimen-pseudolabels",
   "rng_seed": 20260811,
   "balanced_permutations": 200,
   "uniform_guessing_expected_accuracy": 0.3333333333333333,

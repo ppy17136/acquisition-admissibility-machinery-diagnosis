@@ -1,5 +1,5 @@
 {
-  "protocol": "qrei-unified-v2-fault-orthogonal-identity-decoder",
+  "protocol": "unified-v2-fault-orthogonal-identity-decoder",
   "construction": "deterministic mapping of V2 out-of-fold bearing-identity predictions; no pseudolabel model refitting",
   "orthogonal_mapping_count": 552,
   "identity_prediction_rows": 3600,

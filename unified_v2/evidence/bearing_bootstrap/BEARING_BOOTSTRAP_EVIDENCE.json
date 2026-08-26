@@ -1,5 +1,5 @@
 {
-  "protocol": "qrei-unified-v2-bearing-bootstrap",
+  "protocol": "unified-v2-bearing-bootstrap",
   "rng_seed": 20260811,
   "replicates": 10000,
   "resampling_unit": "physical bearing stratified by true class",

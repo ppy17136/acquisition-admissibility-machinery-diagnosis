@@ -1,5 +1,5 @@
 {
-  "protocol": "qrei-unified-v2-environment",
+  "protocol": "unified-v2-environment",
   "feature_table": {
     "path": "primary/derived/paderborn_record_features.csv",
     "bytes": 2876552,

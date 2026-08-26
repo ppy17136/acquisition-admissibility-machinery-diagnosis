@@ -1,5 +1,5 @@
 {
-  "protocol": "qrei-unified-v2-operating-transfer",
+  "protocol": "unified-v2-operating-transfer",
   "settings": [
     "N09_M07_F10",
     "N15_M01_F10",

@@ -1,10 +1,12 @@
-# Acquisition-admissibility audit for machinery diagnosis
+# Acquisition-provenance audit for bearing fault diagnosis
 
-This repository supports the manuscript **Before model accuracy: Acquisition-admissibility gates expose specimen-identity shortcuts in machinery diagnosis**.
+This repository supports the manuscript **Acquisition-provenance gates and direct specimen-identity controls for deployment-aligned bearing fault diagnosis**.
 
-Release v2.0.1 preserves the frozen unified V2 numerical evidence and clarifies the mixed-licence boundary; V2 denotes the computational evidence freeze used by the verification scripts. No scientific result changed from v2.0.0.
+Release v2.0.2 preserves the frozen unified V2 numerical evidence and clarifies the mixed-licence boundary; V2 denotes the computational evidence freeze used by the verification scripts. No scientific result changed from v2.0.0.
 
 The authoritative logistic evidence is the unified V2 record under `unified_v2/`. It regenerates the primary split comparison and all logistic controls in one pinned environment from the same frozen 1,200-row feature table. The source audits and frozen feature table remain under `primary/`; superseded pre-V2 logistic summaries are intentionally omitted so the unified V2 release is the authoritative numerical record for the manuscript. Historical method scripts are retained under `primary/historical_v1_code/` for provenance only.
+
+The top-level `CLAIM_EVIDENCE_LEDGER.csv` maps each headline claim to the authoritative public evidence path and the gate it requires. The authoritative combined numerical record is `unified_v2/evidence/UNIFIED_V2_EVIDENCE.json`.
 
 ## One-command verification
 
@@ -36,7 +38,7 @@ The released evidence is already frozen and verified; retraining is optional. Ra
 
 ## Claim boundary
 
-The results support a specimen-identity shortcut mechanism and split-unit sensitivity within the declared 15-bearing, one-rig Paderborn inventory. They do not estimate unrestricted industrial deployment performance, identify the physical origin of the specimen signature, or prove that every diagnostic architecture has the same gap. The 200 assignments and 552 mappings are finite challenge spaces rather than independent physical experiments; the 14,400-partition distribution is finite design sensitivity, not a confidence interval.
+The results support access to a unit-associated identity route under identity-sharing evaluation and demonstrate split-unit sensitivity within the declared 15-bearing, one-rig Paderborn inventory. They do not estimate unrestricted industrial deployment performance, identify the physical origin of the specimen signature, or prove that every diagnostic architecture has the same gap. The 200 assignments and 552 mappings are finite challenge spaces rather than independent physical experiments; the 14,400-partition distribution is finite design sensitivity, not a confidence interval.
 
 ## Licences and attribution
 

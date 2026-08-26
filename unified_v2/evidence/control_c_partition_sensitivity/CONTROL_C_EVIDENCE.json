@@ -1,5 +1,5 @@
 {
-  "protocol": "qrei-unified-v2-exhaustive-class-balanced-specimen-partitions",
+  "protocol": "unified-v2-exhaustive-class-balanced-specimen-partitions",
   "unique_class_balanced_test_triplets": 125,
   "admissible_partition_count": 14400,
   "prespecified_primary_partition_id": 1,

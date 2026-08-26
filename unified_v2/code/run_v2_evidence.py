@@ -188,7 +188,7 @@ def run_baselines(data: DataBundle, output: Path) -> tuple[dict[str, object], li
     evidence = aggregate_baselines(metrics, predictions)
     evidence.update(
         {
-            "protocol": "qrei-unified-v2-logistic-baselines",
+            "protocol": "unified-v2-logistic-baselines",
             "records": len(data.rows),
             "class_counts": dict(Counter(data.diagnosis_target)),
             "fixed_C": 1.0,
@@ -288,7 +288,7 @@ def run_pseudolabels(
             }
         )
     evidence = {
-        "protocol": "qrei-unified-v2-balanced-specimen-pseudolabels",
+        "protocol": "unified-v2-balanced-specimen-pseudolabels",
         "rng_seed": RNG_SEED,
         "balanced_permutations": permutations,
         "uniform_guessing_expected_accuracy": 1 / 3,
@@ -337,7 +337,7 @@ def run_class_conditional_identity(data: DataBundle, output: Path) -> dict[str, 
                 }
             )
     evidence = {
-        "protocol": "qrei-unified-v2-class-conditional-bearing-identity",
+        "protocol": "unified-v2-class-conditional-bearing-identity",
         "classes": list(CLASSES),
         "chance_accuracy": 0.2,
         "summaries": summaries,
@@ -446,7 +446,7 @@ def run_orthogonal_decoder(
             {"modality": modality, "mappings": len(values), **mean_summary(values, "accuracy")}
         )
     evidence = {
-        "protocol": "qrei-unified-v2-fault-orthogonal-identity-decoder",
+        "protocol": "unified-v2-fault-orthogonal-identity-decoder",
         "construction": "deterministic mapping of V2 out-of-fold bearing-identity predictions; no pseudolabel model refitting",
         "orthogonal_mapping_count": len(mappings),
         "identity_prediction_rows": len(identity),
@@ -504,7 +504,7 @@ def run_partition_sensitivity(
     write_csv(directory / "unique_triplet_metrics.csv", triplet_rows)
     if smoke_triplets is not None:
         evidence = {
-            "protocol": "qrei-unified-v2-partition-sensitivity-smoke",
+            "protocol": "unified-v2-partition-sensitivity-smoke",
             "computed_unique_triplets": len(triplets),
             "total_unique_triplets": len(all_triplets),
         }
@@ -564,7 +564,7 @@ def run_partition_sensitivity(
             }
         )
     evidence = {
-        "protocol": "qrei-unified-v2-exhaustive-class-balanced-specimen-partitions",
+        "protocol": "unified-v2-exhaustive-class-balanced-specimen-partitions",
         "unique_class_balanced_test_triplets": len(all_triplets),
         "admissible_partition_count": partition_id,
         "prespecified_primary_partition_id": primary_id,
@@ -620,7 +620,7 @@ def run_operating_transfer(data: DataBundle, output: Path) -> dict[str, object]:
                     }
                 )
     evidence = {
-        "protocol": "qrei-unified-v2-operating-transfer",
+        "protocol": "unified-v2-operating-transfer",
         "settings": sorted(set(data.settings)),
         "summaries": summaries,
     }
@@ -702,7 +702,7 @@ def run_bootstrap(
             })
         summaries.append(summary)
     evidence = {
-        "protocol": "qrei-unified-v2-bearing-bootstrap",
+        "protocol": "unified-v2-bearing-bootstrap",
         "rng_seed": RNG_SEED,
         "replicates": replicates,
         "resampling_unit": "physical bearing stratified by true class",
@@ -729,7 +729,7 @@ def main() -> None:
     write_json(
         output / "RUN_ENVIRONMENT.json",
         {
-            "protocol": "qrei-unified-v2-environment",
+            "protocol": "unified-v2-environment",
             "feature_table": {
                 "path": str(FEATURE_TABLE), "bytes": FEATURE_TABLE.stat().st_size,
                 "sha256": sha256(FEATURE_TABLE), "records": len(data.rows),
@@ -756,7 +756,7 @@ def main() -> None:
     bootstrap = run_bootstrap(predictions, output, 100 if args.smoke else BOOTSTRAP_REPLICATES)
     elapsed = time.time() - started
     summary = {
-        "protocol": "qrei-unified-v2-all-evidence",
+        "protocol": "unified-v2-all-evidence",
         "mode": "smoke" if args.smoke else "full",
         "elapsed_s": elapsed,
         "feature_sha256": sha256(FEATURE_TABLE),

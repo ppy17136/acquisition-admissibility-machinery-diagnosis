@@ -1,5 +1,5 @@
 {
-  "protocol": "qrei-unified-v2-all-evidence",
+  "protocol": "unified-v2-all-evidence",
   "mode": "full",
   "elapsed_s": 67.4390652179718,
   "feature_sha256": "82f5438e6fb83a3c1dfbbf78bd48c79722dcbe016d1b754c14cee07223729b7e",
@@ -396,7 +396,7 @@
         ]
       ]
     },
-    "protocol": "qrei-unified-v2-logistic-baselines",
+    "protocol": "unified-v2-logistic-baselines",
     "records": 1200,
     "class_counts": {
       "healthy": 400,
@@ -411,7 +411,7 @@
     }
   },
   "pseudolabels": {
-    "protocol": "qrei-unified-v2-balanced-specimen-pseudolabels",
+    "protocol": "unified-v2-balanced-specimen-pseudolabels",
     "rng_seed": 20260811,
     "balanced_permutations": 200,
     "uniform_guessing_expected_accuracy": 0.3333333333333333,
@@ -517,7 +517,7 @@
     ]
   },
   "control_a": {
-    "protocol": "qrei-unified-v2-class-conditional-bearing-identity",
+    "protocol": "unified-v2-class-conditional-bearing-identity",
     "classes": [
       "healthy",
       "real_inner_race",
@@ -636,7 +636,7 @@
     ]
   },
   "control_b2": {
-    "protocol": "qrei-unified-v2-fault-orthogonal-identity-decoder",
+    "protocol": "unified-v2-fault-orthogonal-identity-decoder",
     "construction": "deterministic mapping of V2 out-of-fold bearing-identity predictions; no pseudolabel model refitting",
     "orthogonal_mapping_count": 552,
     "identity_prediction_rows": 3600,
@@ -677,7 +677,7 @@
     ]
   },
   "control_c": {
-    "protocol": "qrei-unified-v2-exhaustive-class-balanced-specimen-partitions",
+    "protocol": "unified-v2-exhaustive-class-balanced-specimen-partitions",
     "unique_class_balanced_test_triplets": 125,
     "admissible_partition_count": 14400,
     "prespecified_primary_partition_id": 1,
@@ -725,7 +725,7 @@
     ]
   },
   "operating_transfer": {
-    "protocol": "qrei-unified-v2-operating-transfer",
+    "protocol": "unified-v2-operating-transfer",
     "settings": [
       "N09_M07_F10",
       "N15_M01_F10",
@@ -892,7 +892,7 @@
     ]
   },
   "bearing_bootstrap": {
-    "protocol": "qrei-unified-v2-bearing-bootstrap",
+    "protocol": "unified-v2-bearing-bootstrap",
     "rng_seed": 20260811,
     "replicates": 10000,
     "resampling_unit": "physical bearing stratified by true class",

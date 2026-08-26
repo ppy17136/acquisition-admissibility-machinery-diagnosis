@@ -391,7 +391,7 @@
       ]
     ]
   },
-  "protocol": "qrei-unified-v2-logistic-baselines",
+  "protocol": "unified-v2-logistic-baselines",
   "records": 1200,
   "class_counts": {
     "healthy": 400,
