@@ -26,10 +26,8 @@ authors:
   - family-names: Zhao
     given-names: Chao
     orcid: "https://orcid.org/0009-0004-6623-9871"
-  - family-names: Liu
-    given-names: Zhi Zhuo
-    orcid: "https://orcid.org/0009-0004-4526-3207"
-  - family-names: Wei
-    given-names: Zi Jian
-    orcid: "https://orcid.org/0009-0003-4932-5703"
+  - family-names: Ma
+    given-names: Meng Kai
+  - family-names: Huang
+    given-names: Zheng Hui
 abstract: "Author-created code and Paderborn-derived public evidence for an acquisition-provenance audit of unit-associated nuisance identity and split-unit sensitivity in machinery diagnosis. Licensing is assigned by file class in LICENSES.md."
